@@ -135,7 +135,7 @@ if (!Caman && typeof exports == "object") {
   singleD: function(x){
     
     var r = 0;
-    if(x <= 255*0.25){
+    if(x <= 0.25){
       r = ((16 * x - 12) * x + 4) * x
     }else{
       r = Math.sqrt(x);
